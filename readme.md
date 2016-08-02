@@ -25,6 +25,9 @@ ________________________________
 ****** Testable Endpoints ******
 
 after setting up the database the following endpoint will return data in json format
+
 http://localhost/dayvids/api/topic/2016/05/14
-http://localhost/dayvids/api/video/                 
+
+http://localhost/dayvids/api/video/
+
 http://localhost/dayvids/api/video/1
