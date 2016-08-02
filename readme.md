@@ -1,4 +1,4 @@
-This is the backend to the Mobile app 'DayVids' from the MWA Assignment.
+This is the API backend to the Mobile app 'DayVids'.
 The idea of the app was to display a certain topic everyday with different categories and videos associated to that category
 For example 'Funny Animal Videos' would be a topic for a day , and have sub categories like cats , dogs , monkeys etc...
 Each category would then have multiple associated videos for the user to enjoy,
@@ -25,6 +25,6 @@ ________________________________
 ****** Testable Endpoints ******
 
 after setting up the database the following endpoint will return data in json format
-http://localhost/dayvids/api/topic/2016/05/14      Only available date with the data in database , all other dates will return a status:error
+http://localhost/dayvids/api/topic/2016/05/14
 http://localhost/dayvids/api/video/                 
-http://localhost/dayvids/api/video/1               27 videos in the database so any number above 27 will return a status:error
+http://localhost/dayvids/api/video/1
